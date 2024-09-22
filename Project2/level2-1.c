@@ -6,7 +6,7 @@ int main(void)
 {
 	char art[5];
 	int chan[5], num[5], pri[5];
-	for (int i = 0; i < 5 ; i++)//放置货物
+	for (int i = 0; i < 5; i++)//放置货物
 	{
 		printf("请依次输入货物，通道，数量，价格，以摆放货物或输入s,以停止放置货物（注意请不要在一个通道中放置不同种货物）\n");
 		scanf(" %c", &art[i]);
@@ -15,7 +15,7 @@ int main(void)
 		else
 			scanf("%d%d%d", &chan[i], &num[i], &pri[i]);
 	}
-	a : printf("请依次输入货物，通道，数量，以购买；或输入s停止购买\n");
+a: printf("请依次输入货物，通道，数量，以购买；或输入s停止购买\n");
 	char article;
 	int channel, number;
 	int total = 0;
@@ -41,7 +41,7 @@ int main(void)
 	printf("您共消费%d元，请投币1元，2元或5元付款\n", total);
 	purchase(total);
 	printf("已购毕，输入y,以继续购买。或者输入s退出\n");
-    char judge;
+	char judge;
 	scanf(" %c", &judge);
 	if (judge == 'y')
 		goto a;

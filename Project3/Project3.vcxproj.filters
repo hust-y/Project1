@@ -15,13 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="level1-3.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="level1-1.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="level1-2.c">
+    <ClCompile Include="FileName.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
